@@ -29,7 +29,7 @@
             // | TAB  |  Q  |  W  |  E  |  R  |    T    |   |  Y  |  U   |  I  |  O  |  P  | ESC |
             // | CTRL |  A  |  S  |  D  |  F  |    G    |   |  H  |  J   |  K  |  L  |  ;  |  '   |
             // | SHFT |  Z  |  X  |  C  |  V  |    B    |   |  N  |  M   |  ,  |  .  |  /  | SHFT |
-            //                    | GUI | LWR | ALT/ENT |   | HYPER/SPC | BKSP  | RSE |
+            //                    | GUI | RSE | ALT/ENT |   | HYPER/SPC | LWR | BKSP |
 
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T           &kp Y                 &kp U     &kp I      &kp O    &kp P     &kp ESC
