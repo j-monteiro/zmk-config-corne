@@ -31,25 +31,20 @@
         compatible = "zmk,combos";
 
         // PT dead keys — chord right-hand home row neighbors, then type vowel
-        combo_caret {
+        combo_comma {
             timeout-ms = <200>;
-            key-positions = <22 23>; // H + J (reversed right half)
-            bindings = <&kp CARET>; // ^
+            key-positions = <21 22>; // J + K
+            bindings = <&kp COMMA>;  // ,
         };
-        combo_tilde {
+        combo_dot {
             timeout-ms = <200>;
-            key-positions = <19 20>; // L + Ç (reversed right half)
-            bindings = <&kp TILDE>;  // ~
+            key-positions = <20 21>; // K + L
+            bindings = <&kp DOT>;    // .
         };
-        combo_grave {
+        combo_lt {
             timeout-ms = <200>;
-            key-positions = <20 21>; // K + L (reversed right half)
-            bindings = <&kp GRAVE>;  // ` (same as ~ on PT-PT)
-        };
-        combo_acute {
-            timeout-ms = <200>;
-            key-positions = <21 22>; // J + K (reversed right half)
-            bindings = <&kp RA(N4)>;    // ´ (AltGr+4 = acute on PT-PT)
+            key-positions = <19 20>; // L + Ç
+            bindings = <&kp LT>;     // < (Shift = >)
         };
 
         // Utility combos
